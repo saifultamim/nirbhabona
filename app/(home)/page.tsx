@@ -32,7 +32,7 @@ export default function page() {
       </section>
     </div>
 
-      <section id="achievement" className="pt-24 w-9/12 mx-auto ">
+      <section id="achievement" className="pt-28 lg:pt-24 w-9/12 mx-auto ">
        <Achivement></Achivement>
       </section>
     
@@ -44,18 +44,18 @@ export default function page() {
        <Seller></Seller>
       </section>
 
-      <section id="features" className="pt-24 w-9/12 mx-auto">
+      <section id="features" className="pt-32 w-9/12 mx-auto">
        <Features></Features>
       </section>
 
-      <section id="interface" className="pt-24 w-9/12 mx-auto">
+      <section id="interface" className="pt-32 w-9/12 mx-auto">
       <Interface></Interface>
       </section>
 
-      <section id="pricingPlan" className="pt-24 w-9/12 mx-auto">
+      <section id="pricingPlan" className="pt-32 w-9/12 mx-auto">
       <PricingPlan></PricingPlan>
       </section>
-      <section id="faq" className="pt-24 w-9/12 mx-auto">
+      <section id="faq" className=" pt-28 lg:pt-32 w-9/12 mx-auto">
       <Question></Question>
       </section>
 

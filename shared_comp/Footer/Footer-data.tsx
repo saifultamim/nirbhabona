@@ -11,6 +11,6 @@ export const footer_data = [
     {
         title:'Explore',
         data:['About Us','Our Mission','How It Work','Policy']
-    },
+    }
 
 ]

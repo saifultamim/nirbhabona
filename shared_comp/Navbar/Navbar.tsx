@@ -37,8 +37,8 @@ const Navbar = () => {
 
 
   {/* Hamburger Menu for Mobile */}
- <div className='block lg:hidden'>
-        <button onClick={toggleMenu} className="lg:focus:outline-none">
+ <div className='hamburger-menu'>
+        <button onClick={toggleMenu} className="focus:outline-none">
             <TiThMenu className="text-2xl" />
           </button>
         </div> 

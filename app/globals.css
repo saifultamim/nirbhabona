@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -69,6 +68,64 @@ color: white;
   text-decoration-color: blue; 
 }
 
+.hamburger-menu {
+  display: block;
+}
 
+/* Show on large devices (1024px and above) */
+@media (min-width: 950px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+
+.footer-icon {
+  display: none;
+}
+
+/* Show on large devices (1024px and above) */
+@media (min-width: 950px) {
+  .footer-icon {
+    display: block;
+  }
+}
+@media (min-width: 950px) {
+  .footer-icon {
+    display: block;
+  }
+}
+.footer-icon2 {
+  display: block;
+}
+@media (min-width: 700px) {
+  .footer-icon2 {
+    display: none;
+  }
+}
+
+@media (min-width: 950px) {
+  .footer-icon2 {
+    display: none;
+  }
+}
+
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Adjust the proportions of the columns */
+  gap: 20px; /* Space between columns */
+  padding: 20px; /* Optional border for visibility */
+}
+
+@media (min-width: 850px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr; /* Adjust the proportions of the columns */
+    gap: 20px; /* Space between columns */
+    padding: 20px;
+ 
+  }
+}
 
 
