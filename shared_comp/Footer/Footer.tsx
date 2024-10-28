@@ -4,15 +4,15 @@ import { footer_data } from './Footer-data';
 import Link from 'next/link';
 import { playstore } from '../../app/(home)/_comp/Download/Download-data';
 
-// const scrollToSection = (sectionId: string) => {
-//     const section = document.getElementById(sectionId);
-//     if (section) {
-//         section.scrollIntoView({
-//             behavior: 'smooth',
-//             block: 'start',
-//         });
-//     }
-// };
+const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+        });
+    }
+};
 
 const Footer = () => {
     return (
@@ -20,8 +20,11 @@ const Footer = () => {
             <div className='footer mx-auto justify-around items-center'>
                 {/* first section */}
            <div className=' w-3/12  px-4'>
+           
+           <button onClick={() => scrollToSection('home')} className='text-center'>
            <Image alt='nirbhabona' src='/image/nirbhabona/nirbhabona.png' height={200} width={200} className='' />
            <p className='text-black font-black footer-icon '>Nirbhabona mobile app <br/> for business solution</p>
+           </button>
           <div className='hamburger-menu text-white' style={{width:'200px'}}>
           {
                         playstore.map((params,idx)=>(

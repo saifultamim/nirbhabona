@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" w-full  text-black   shadow-lg shadow-gray-500">
+    <nav className=" w-11/12 mx-auto  text-black   shadow-lg shadow-gray-500">
       <div className="container mx-auto flex justify-between items-center p-8 ">
         {/* Logo */}
         <div className="text-2xl font-bold">
@@ -42,7 +42,23 @@ const Navbar = () => {
             <TiThMenu className="text-2xl" />
           </button>
         </div> 
+     {/* ================================= */}
+  {/* <div>
+  <div className="block lg:hidden">
+  <button onClick={toggleMenu} className="focus:outline-none">
+    1
+  </button>
+  <button onClick={toggleMenu} className="focus:outline-none">
+    2
+  </button>
+</div>
 
+      
+       
+        
+  </div> */}
+     {/* ================================== */}
+            
         {/* Full Menu for Larger Screens */}
        <div className={`hidden lg:block space-x-8  w-1/2 font-bold `}>
        <div className={`flex justify-end`}>

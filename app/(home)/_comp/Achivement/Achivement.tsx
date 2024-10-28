@@ -1,7 +1,7 @@
 import React from 'react';
 import { achivement_data } from './Achivement_data';
-import { MdArrowRightAlt } from "react-icons/md";
-import Link from 'next/link';
+//import { MdArrowRightAlt } from "react-icons/md";
+//import Link from 'next/link';
 
 const Achivement = () => {
     return (
@@ -11,14 +11,14 @@ const Achivement = () => {
                 <p className=' text-xl lg:text-3xl font-bold'>
                     we speck out <br /> achivement & <br /> powerful status
                 </p>
-                <Link href='#' className='flex items-center text-blue-600 mt-4'>
+                {/* <Link href='#' className='flex items-center text-blue-600 mt-4'>
                     <p className='border-b-2 border-blue-600'>Know more</p>
                     <MdArrowRightAlt className='ml-4 text-2xl' />
-                </Link>
+                </Link> */}
             </div>
 
             {/* Second section with achievements */}
-            <div className='w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 justify-between md:border-l-4 lg:border-l-4 border-blue-400'>
+            <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-between md:border-l-4 lg:border-l-4 border-blue-400'>
                 {achivement_data.map((params, idx) => (
                     <div key={idx} className=''>
                         <div className='p-8 text-center '>

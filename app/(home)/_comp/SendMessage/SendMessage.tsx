@@ -14,7 +14,7 @@ const SendMessage = () => {
                 type="text"
                 name="name"
                 id="name"
-                placeholder="John"
+                placeholder=" First Name"
             
                 className="text-black mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-slate-100"
               />
@@ -25,7 +25,7 @@ const SendMessage = () => {
                 type="text"
                 name="name"
                 id="name"
-                placeholder=" Doe"
+                placeholder=" Last Name"
             
                 className="text-black mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-slate-100"
               />
@@ -40,7 +40,7 @@ const SendMessage = () => {
                 type="email"
                 name="email"
                 id="email"
-                placeholder="email@example.com"
+                placeholder=" Email address"
             
                 className="text-black mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-slate-100"
               />
